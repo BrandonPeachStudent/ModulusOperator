@@ -17,6 +17,19 @@ System.out.println("Number is odd: "+(number % 2 !=0));
 
 
 
+        Scanner keep = new Scanner(System.in);
+        System.out.println("Enter another positive whole number");
+        number = keep.nextInt();
+
+        System.out.println(number+" contained is: "+(number % 8+5));
+
+
+
+
+
+
+
+
 
 
     }
